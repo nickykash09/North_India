@@ -1,0 +1,117 @@
+body, header, nav, ul, li, ol, div, h1,h3, img, code /*to remove defaults*/{
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+*,
+*:before,
+*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+body {
+    font-family: 'Abhaya Libre';font-size: 22px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+.sidebar,
+.main{
+	display: inline-block;
+	float: right;
+	overflow-x: hidden;
+}
+.clear{
+	clear: both;
+}
+.sidebar{
+	width: 12%;
+	position: fixed;
+	z-index: 1;
+	text-align: center;
+}
+.sidebar a {
+	text-decoration: none;
+	color: black;
+}
+.sidebar img{
+	margin: 10%;
+}
+ .sidebar li{
+ 	margin: 10%;
+ 	padding: 0px;
+ }
+.sidebar li:hover{
+	background-color: #D4AC0D;
+}
+
+
+.main{
+	width: 88%;
+}
+#title,
+#search{
+	display: inline-block;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+#title{
+	padding-left:3%;
+	padding-right: 0;
+}
+#search{
+	float: right;
+}
+#search input{
+	display: inline-block;
+	margin-left: 43%;
+	margin-top: 5%;
+}
+#search img{
+	width: 20%;
+	display: inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+#title code{
+	color: red;
+	font-family: 'Aguafina Script';
+}
+.main img{
+	padding: 5%;
+	padding-top: 0%;
+}
+.main li{
+	display: inline-block;
+	float: left;
+	width: 31%;
+}
+.clear{
+	clear: both;
+}
+.products img{
+	width: 200px;
+	height: 200px;
+}
+.about {
+	border: 4px solid #D4AC0D;
+	border-right: none;
+	border-radius: 20px 0 0 20px;
+	padding-left:5%;
+	padding-top: 2.5%;
+}
+.about li{
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid #D4AC0D;
+	border-bottom: none;
+	border-radius: 20px 20px 0 0;
+}
+.about b{
+	text-align: center;
+}
